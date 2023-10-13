@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "datetime": "October 12, 2023 4:27:41 PM",
+      "body": "By going through these steps, you should be able to identify and fix the problem. Let me know if you need more specific help!"
+    },
+    {
+      "id": 2,
+      "title": "My 2nd post",
+      "datetime": "October 12, 2023 4:28:08 PM",
+      "body": "Trace the flow of your code and find out where the variable might be getting an unexpected value. Use console.log statements to log the value of the variable before the error occurs."
+    },
+    {
+      "id": 3,
+      "title": "Default Values:",
+      "datetime": "October 12, 2023 4:28:33 PM",
+      "body": "If applicable, provide default values for variables to avoid them being undefined."
+    },
+    {
+      "id": 4,
+      "title": "My 4th post",
+      "datetime": "October 13, 2023 1:23:13 PM",
+      "body": "Hey this is my new post and the fourth one."
+    },
+    {
+      "id": 5,
+      "title": "My Fifth post.",
+      "datetime": "October 13, 2023 4:27:12 PM",
+      "body": "Come here man !Hey the post is edited.My blog is edited."
+    }
+  ]
+}

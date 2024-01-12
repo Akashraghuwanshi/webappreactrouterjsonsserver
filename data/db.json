@@ -1,22 +1,10 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "My First Post",
-      "datetime": "October 12, 2023 4:27:41 PM",
-      "body": "By going through these steps, you should be able to identify and fix the problem. Let me know if you need more specific help!"
-    },
-    {
       "id": 2,
       "title": "My 2nd post",
       "datetime": "October 12, 2023 4:28:08 PM",
       "body": "Trace the flow of your code and find out where the variable might be getting an unexpected value. Use console.log statements to log the value of the variable before the error occurs."
-    },
-    {
-      "id": 3,
-      "title": "Default Values:",
-      "datetime": "October 12, 2023 4:28:33 PM",
-      "body": "If applicable, provide default values for variables to avoid them being undefined."
     },
     {
       "id": 4,
@@ -27,8 +15,26 @@
     {
       "id": 5,
       "title": "My Fifth post.",
-      "datetime": "October 13, 2023 4:27:12 PM",
-      "body": "Come here man !Hey the post is edited.My blog is edited."
+      "datetime": "October 13, 2023 5:59:42 PM",
+      "body": "Come here man !Hey the post is edited.My blog is edited.Edited again man :)."
+    },
+    {
+      "id": 6,
+      "title": "my latest post about isarel and palestine war",
+      "datetime": "October 13, 2023 4:36:38 PM",
+      "body": "The Arab–Israeli conflict is an ongoing intercommunal phenomenon involving political tension, military conflicts, and other disputes between various Arab countries and Israel, which escalated during the 20th century, but had mostly faded out by the early 21st century.Hope this conflict will end  soon."
+    },
+    {
+      "id": 7,
+      "title": "Attack on festival of freedom in Isarel.",
+      "datetime": "December 29, 2023 2:28:29 PM",
+      "body": "This attack is made by Hamas an terrorist group.Amik is not his salary."
+    },
+    {
+      "id": 8,
+      "title": "Another post",
+      "datetime": "December 29, 2023 5:17:39 PM",
+      "body": "adffdfdfdfdfadfdhfjdfdlkhajfhdjhfjadhfjk akash"
     }
   ]
 }

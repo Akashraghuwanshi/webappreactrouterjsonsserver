@@ -10,10 +10,16 @@ import {format} from 'date-fns';
 import api from './api/posts';
 import EditPost from './EditPost';
 
+import useFetchAxios from './hooks/useFetchAxios';
+
+
+
 function App() {
   const[posts,setPosts]=useState([]);
-  const[search,setSearch]=useState('');
 
+  const[search,setSearch]=useState('');
+  
+  
   const[searchResults,setSearchResults]= useState([]);
 
   const navigate = useNavigate();
@@ -26,7 +32,14 @@ function App() {
    
   const [editBody, setEditBody] = useState('');
 
-  useEffect(() => {
+   const {data,fetchError,isLoading} = useFetchAxios("http://localhost:3500/posts")
+  
+    useEffect(()=>{
+        setPosts(data);
+    },[data])
+
+    /* the below useEffect become redundant becoz i am using custom hook useFetchAxios */
+  /* useEffect(() => {
        const fetchPosts = async () => {
         try {
           const response = await api.get('/posts')
@@ -46,7 +59,7 @@ function App() {
 
        }
          fetchPosts();
-    },[] )
+    },[] ) */
 
   useEffect( ()=>{
     const filteredResults = posts.filter((post)=>(
@@ -127,7 +140,13 @@ function App() {
          setSearch={setSearch}
        />} >
           {/* by deafault path of parent path / of element layout */}
-      <Route  index element={<Home posts={searchResults}/>} />
+          
+      <Route  index element={<Home 
+       posts={searchResults} 
+       fetchError={fetchError} 
+       isLoading={isLoading}
+       />} 
+       />
 
       <Route path = "post" >
               {/* by default path of parent path post */}
